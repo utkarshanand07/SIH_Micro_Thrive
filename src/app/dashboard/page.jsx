@@ -1,8 +1,8 @@
 "use client";
 import { useState } from 'react'
 import './App.css'
-import Header from './header'
-import Sidebar from './sidebar'
+import Header from './Header'
+import Sidebar from './Sidebar'
 import Home from './Home'
 
 const Dashboard = () => {
