@@ -10,11 +10,11 @@ const Portfolio = () => {
         <Link href="/portfolio/illustrations" className={styles.item}>
           <span className={styles.title}>Illustrations</span>
         </Link>
-        <Link href="/portfolio/websites" className={styles.item}>
-          <span className={styles.title}>Websites</span>
+        <Link href="/portfolio/Usecases" className={styles.item}>
+          <span className={styles.title}>Usecases</span>
         </Link>
-        <Link href="/portfolio/application" className={styles.item}>
-          <span className={styles.title}>Application</span>
+        <Link href="/portfolio/technology" className={styles.item}>
+          <span className={styles.title}>technology</span>
         </Link>
       </div>
     </div>

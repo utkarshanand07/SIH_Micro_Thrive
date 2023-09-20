@@ -14,12 +14,12 @@ const links = [
   },
   {
     id: 2,
-    title: "Portfolio",
+    title: "Services",
     url: "/portfolio",
   },
   {
     id: 3,
-    title: "Blog",
+    title: "Newsletters",
     url: "/blog",
   },
   {
@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        lamamia
+      MicroThrive
       </Link>
       <div className={styles.links}>
         <DarkModeToggle />

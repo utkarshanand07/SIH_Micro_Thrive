@@ -1,22 +1,39 @@
-.container {
+/* Blog.module.css */
+
+.blogs{
   display: flex;
+  width:60%;
+  justify-content: center;
   align-items: center;
-  gap: 50px;
-  margin-bottom: 50px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+}
+/* Container for the entire blog post */
+.container {
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: row; /* Arrange items in a row */
+  justify-content: space-between; /* Space evenly between items */
+  background-color: #f7f7f7; /* Light gray background for each blog post */
+  border: 2px solid #df0c0c;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.image{
-  object-fit: cover;
-}
-
-.content {
-}
-
-.title{
+/* Style for the blog title (h2) */
+.title {
+  font-size: 24px;
+  color: #333; /* Dark gray color for blog titles */
   margin-bottom: 10px;
+  flex-basis: 50%; /* Take up 50% of the available width */
 }
 
-.desc{
-  font-size: 18px;
-  color: #999;
+/* Style for the blog description */
+.desc {
+  flex-basis: 50%; /* Take up 50% of the available width */
+  padding-left: 20px; /* Add some space between title and description */
+  color:black;
+  font-weight:500;
 }
+
